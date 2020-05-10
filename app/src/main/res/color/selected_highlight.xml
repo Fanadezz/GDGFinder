@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--State lists are worked through from the top to the bottom like a case statement
+     if none matches, the default state applies-->
+
+    <!--state_selected color-->
+
+    <item android:color="?attr/colorPrimaryVariant" android:state_selected="true" />
+
+    <!--default color-->
+    <item android:alpha="0.18" android:color="?attr/colorOnSurface" />
+</selector>
